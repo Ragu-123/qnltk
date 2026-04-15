@@ -1,4 +1,4 @@
-# QuantumLinguist 🌌🗣️
+# QuantumLinguist 
 
 **QuantumLinguist** is a grammar-driven hybrid quantum-classical Natural Language Processing (QNLP) research library. It provides a modular framework for mapping formal linguistic structures directly into quantum circuits using **PennyLane** and **NLTK**.
 
@@ -6,7 +6,7 @@ By treating the syntax of a sentence as the template for a quantum circuit, Quan
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Grammar-to-Circuit Compilation**: Automatically transform NLTK parse trees into parameterized quantum circuits (PQCs) using customizable rulesets.
 - **Hybrid Neural Architectures**: Seamlessly combine classical encoders (BERT, GloVe) with quantum layers.
@@ -20,7 +20,7 @@ By treating the syntax of a sentence as the template for a quantum circuit, Quan
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The QuantumLinguist pipeline follows a four-stage process:
 
@@ -31,7 +31,7 @@ The QuantumLinguist pipeline follows a four-stage process:
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 ### Prerequisites
 - Python 3.10+
@@ -41,7 +41,7 @@ The QuantumLinguist pipeline follows a four-stage process:
 Clone the repository and install the package in editable mode:
 
 ```powershell
-git clone https://github.com/yourusername/quantumlinguist.git
+https://github.com/Ragu-123/qnltk.git
 cd quantumlinguist
 pip install -e ".[dev]"
 ```
@@ -50,7 +50,7 @@ The installer will automatically download necessary NLTK data (punkt, averaged_p
 
 ---
 
-## 📖 Quickstart: Sentiment Analysis
+## Quickstart: Sentiment Analysis
 
 Train a quantum sentiment classifier in just a few lines:
 
@@ -75,7 +75,7 @@ print(f"Entanglement Map: {explanation['entanglement_map']}")
 
 ---
 
-## 🧪 Running Examples
+## Running Examples
 
 The `examples/` directory contains several scripts to get you started:
 
@@ -94,7 +94,7 @@ The `examples/` directory contains several scripts to get you started:
 
 ---
 
-## 🔬 Research & Reproducibility
+## Research & Reproducibility
 
 QuantumLinguist is built for reproducibility. The `Trainer` class generates artifacts that capture the exact seed, circuit depth, and entanglement metrics for every run.
 
@@ -108,7 +108,7 @@ trainer.save_artifact("experiment_results.json")
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - `quantumlinguist/`:
   - `parser.py`: NLTK-based linguistic tree generation.
@@ -121,6 +121,6 @@ trainer.save_artifact("experiment_results.json")
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the **Apache-2.0 License**. See the [LICENSE](LICENSE) file for details.
